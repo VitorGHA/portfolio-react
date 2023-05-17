@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100vw;
+    height: 4rem;
+    background-color: black;
+    transition: .3s;
+   
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.nav-bar a:hover {
+    text-decoration: none;
+    color: #982626;
+    border-bottom: solid 2px #982626;
+    transition: .3s;
+}
